@@ -27,7 +27,7 @@ multiplay(3,4);
 divide(3,4);
 
 // another exercise
-const firstName = 'Sirimas';
-const location = 'Chiang Mai';
-const hobby = 'playing games';
-console.log ("Hi, my name is "+firstName+".I live in "+location+" and enjoy "+hobby);
+function informations(firstName, location, hobby){
+    console.log ("Hi, my name is "+firstName+".I live in "+location+" and enjoy "+hobby + ".");
+}
+informations("Sirimas", "Chiang Mai", "playing game")
